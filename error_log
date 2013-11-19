@@ -1,0 +1,19 @@
+[18-Nov-2013 10:57:55] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/daesanta/public_html/kuloi/application/controllers/user.php on line 18
+[18-Nov-2013 10:57:58] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/daesanta/public_html/kuloi/application/controllers/user.php on line 18
+[18-Nov-2013 10:58:06] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/daesanta/public_html/kuloi/application/controllers/user.php on line 18
+[18-Nov-2013 10:58:16] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/daesanta/public_html/kuloi/application/controllers/user.php on line 18
+[18-Nov-2013 10:58:18] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/daesanta/public_html/kuloi/application/controllers/user.php on line 18
+[18-Nov-2013 10:59:11] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/daesanta/public_html/kuloi/application/controllers/user.php on line 18
+[18-Nov-2013 10:59:32] PHP Fatal error:  Call to undefined method CI_Loader::login_fail() in /home/daesanta/public_html/kuloi/application/controllers/user.php on line 15
+[18-Nov-2013 11:01:00] PHP Fatal error:  Call to undefined method CI_Loader::login_fail() in /home/daesanta/public_html/kuloi/application/controllers/user.php on line 15
+[18-Nov-2013 11:30:24] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/daesanta/public_html/kuloi/application/models/muser.php on line 9
+[18-Nov-2013 15:18:29] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/daesanta/public_html/kuloi/application/models/muser.php on line 9
+[18-Nov-2013 15:20:21] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/daesanta/public_html/kuloi/application/models/muser.php on line 9
+[18-Nov-2013 15:26:48] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/daesanta/public_html/kuloi/application/models/muser.php on line 9
+[18-Nov-2013 15:27:05] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/daesanta/public_html/kuloi/application/models/muser.php on line 12
+[18-Nov-2013 15:27:39] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/daesanta/public_html/kuloi/application/models/muser.php on line 12
+[18-Nov-2013 15:28:52] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/daesanta/public_html/kuloi/application/models/muser.php on line 12
+[18-Nov-2013 15:29:55] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/daesanta/public_html/kuloi/application/models/muser.php on line 12
+[18-Nov-2013 15:30:01] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/daesanta/public_html/kuloi/application/models/muser.php on line 12
+[18-Nov-2013 15:32:33] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/daesanta/public_html/kuloi/application/models/muser.php on line 12
+[18-Nov-2013 15:33:14] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/daesanta/public_html/kuloi/application/models/muser.php on line 12
