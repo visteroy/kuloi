@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to Ku Loi Homepage</title>
-
+        <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet">
+        <script src="<?php echo base_url();?>js/bootstrap.js"></script>
 	<style type="text/css">
 
 	::selection{ background-color: #E13300; color: white; }
@@ -73,7 +74,7 @@
 		
 		<code>Document of Mr Vu will appear here.</code>
 
-		<a href="<?php echo base_url();?>user">Login here!</a>
+		<a class="btn btn-success"  href="<?php echo base_url();?>user">Login here!</a>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
