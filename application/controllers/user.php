@@ -5,6 +5,8 @@ class User extends CI_Controller {
     	{
         	parent::__construct();
         	$this->load->database();
+                $this->load->database();
+		$this->load->model('Muser');
     	}
 
 	public function index()
@@ -33,14 +35,13 @@ class User extends CI_Controller {
 			if ($_POST['username'] != NULL && $_POST['password'] != NULL)
 			{
 				$username = $_POST['username'];
-				$password = $_POST['password'];
-				$this->load->database();
-				$this->load->model('Muser');
+				$password = $_POST['password'];				
 				$result = $this->Muser->check_user_exist($username, $password);
 				if ($result != NULL)
 				{
 					$alert['nothing'] = "Login OK";
-					$this->login_fail($alert);
+                                        $alert['username'] = $username;
+					$this->login_success($alert);
 				}
 				else
 				{
@@ -55,8 +56,12 @@ class User extends CI_Controller {
 	{
 		$this->load->view('login_fail', $alert);
 	}
+        function login_success($alert)
+	{
+		$this->load->view('login_success', $alert);
+	}
 	function insert_user()
         {
-        
+                $this->Muser->insert_user();
         }
 }

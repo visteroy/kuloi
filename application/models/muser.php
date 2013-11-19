@@ -8,7 +8,8 @@ class Muser extends CI_Model {
     	}
 	function check_user_exist($username, $password)
 	{
-		$query = "SELECT * FROM kuloi_user WHERE username='".$username."' AND password='".$username."'";
+                $password = md5($password);
+		$query = "SELECT * FROM kuloi_user WHERE username='".$username."' AND password='".$password."'";
 		$result = $this->db->query($query);
 		if ($result)
 		{
@@ -19,5 +20,19 @@ class Muser extends CI_Model {
 			return NULL;
 		}
 	}
+        function insert_user()
+        {
+            $info = array(
+                'id' => rand(10000, 99999) + time(),
+                'username' => 'admin',
+                'password' => md5('123456'),
+                'real_name' => 'Admin',
+                'email' => 'admin@kuloi.com',
+                'created' => time(),
+                'modified' => time()
+                
+            );
+            $query = $this->db->insert('kuloi_user', $info);
+        }
 
 }
